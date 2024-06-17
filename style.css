@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #7cd0d6;
+    color: rgb(56, 47, 47);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #97f388;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#route-info {
+    margin-top: 20px;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+}

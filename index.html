@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritma Dijkstra dan Branch and Bound - Jalur Kereta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Jalur Kereta Antar Kota</h1>
+        <h4>Algoritma Dijkstra dan Branch and Bound</h4>
+        <form id="form">
+            <label for="start">Kota Asal:</label>
+            <input type="text" id="start" name="start" required>
+            <label for="end">Kota Tujuan:</label>
+            <input type="text" id="end" name="end" required><br>
+            <label for="end">Cari Jalur Terpendek:</label>
+            <button type="submit" id="dijkstra-btn">Dijkstra</button>
+            <button type="submit" id="bnb-btn">Branch and Bound (BnB)</button>
+        </form>
+        <div id="result"></div>
+        <div id="route-info"></div>
+        <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
